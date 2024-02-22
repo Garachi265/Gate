@@ -88,7 +88,7 @@ Indian Institute of Technology Hyderabad
 
 
 \textbf{Question:} Let a frequency modulated (FM) signal : $ x(t) = A \cos(\omega_c t + k_f \int_{-\infty}^{t} m(\lambda) d\lambda)$ , where $ m(t) $is a message signal of bandwidth $ W $. It is passed through a non-linear system with output $y(t) = 2x(t) + 5(x(t))^2 $.
-Let $B_T $denote the FM bandwidth. The minimum value of $ \omega_c $ required to recover $ x(t) $ from $ y(t) $ is:\\
+Let $B_T $ denote the FM bandwidth. The minimum value of $ \omega_c $ required to recover $ x(t) $ from $ y(t) $ is:\\
 \begin{enumerate}[label = (\Alph*)]
 \item $B_T + W$ \\
 \item $\dfrac{3}{2} B_T$ \\
@@ -97,24 +97,67 @@ Let $B_T $denote the FM bandwidth. The minimum value of $ \omega_c $ required to
 \end{enumerate}
 %\section{Solution} 
 \textbf{Solution: }
-Let $k_f \int_{-\infty}^{t} m(\lambda) d\lambda = \phi $
+\begin{table}[h!]
+\centering
+\resizebox{\columnwidth}{!}{
+\input{table/table.tex}}
+\label{cggattab1}
+\caption*{ TABLE 1:Given Parameters}
+\end{table}
+\\
 \begin{align}
- x(t) &= A \cos(\omega_c t + \phi) \\
- y(t) &= 2x(t) + 5(x(t))^2 \\
- &= 2A \cos(\omega_c t + \phi) + 5A^{2}\cos^{2}(\omega_c t +  \phi  ) \\
- &= 2A \cos(\omega_c t +  \phi ) + \dfrac{5}{2}A^{2}[\cos(2\omega_c t +  2\phi ) + 1]
- \end{align}
+BW[x(t)] \longrightarrow B_T = 2(\omega + \triangle f )
+\end{align}
 \begin{figure}[h!]
   \centering
-  \includegraphics[width=0.5\textwidth]{figures/cggate.png} 
+  \includegraphics[width=0.5\textwidth]{figures/cggatefig1.png} 
  \label{cggatefig1}
- \caption*{Fig 1: Plot of M(Modulation Frequency) vs $\omega$  }
+ \caption*{Fig. 1}
 \end{figure}
-\\From garph ,to recover $x(t)$ from $y(t)$
+
+Now , for $x^{2}(t) $
 \begin{align}
-2\omega_c - B_T > \omega_c + \dfrac{B_T}{2} \\
-\omega_c > \dfrac{3B_T}{2} \\
-\therefore(\omega_c)_{min} = \dfrac{3}{2}B_T
+\triangle f' = 2\triangle f \\
+\omega'_C = 2\omega_C
 \end{align}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]{figures/cggatefig2.png} 
+ \label{cggatefig2}
+  \caption*{Fig. 2}
+\end{figure}
+
+\begin{align}
+BW[x^2(t)] &= 2(\triangle f' + \omega) \\
+&=2(2\triangle f + \omega) \\
+&=B_T + 2\triangle f
+\end{align}
+
+\begin{align}
+y(t) = 2x(t) + 5(x(t))^2
+\end{align}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]{figures/cggatefig3.png} 
+ \label{cggatefig3}
+  \caption*{Fig. 3}
+\end{figure}
+
+To recover $x(t)$ ,
+\begin{align}
+2\omega_C - \dfrac{B_T}{2} - \triangle f > \omega_C + \dfrac{B_T}{2} \\
+\omega_C > \triangle f + B_T \\
+\omega_C > \triangle f + 2(\omega + \triangle f) \\
+\omega_C > 3\triangle f + 2\omega \\
+\omega_C > \dfrac{3}{2}[2(\triangle f + \omega)] - \omega \\
+ \omega_C > \dfrac{3}{2}B_T - \omega
+\end{align}
+
+\begin{align}
+\therefore (\omega_C)_{min} = \dfrac{3}{2}B_T
+\end{align}
+
 Hence the correct option is $(b)$
 \end{document}

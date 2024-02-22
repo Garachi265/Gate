@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.21)  22 FEB 2024 13:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.21)  22 FEB 2024 18:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1386,35 +1386,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-<figures/cggate.png, id=11, 777.90625pt x 342.27875pt>
-File: figures/cggate.png Graphic file (type png)
-<use figures/cggate.png>
-Package pdftex.def Info: figures/cggate.png  used on input line 109.
-(pdftex.def)             Requested size: 258.0pt x 113.5216pt.
+(./table/table.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 99--108
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 109--111
+ []
+
+<figures/cggatefig1.png, id=11, 538.01pt x 237.88875pt>
+File: figures/cggatefig1.png Graphic file (type png)
+<use figures/cggatefig1.png>
+Package pdftex.def Info: figures/cggatefig1.png  used on input line 113.
+(pdftex.def)             Requested size: 258.0pt x 114.08002pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 113--115
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<figures/cggatefig2.png, id=13, 548.0475pt x 227.85126pt>
+File: figures/cggatefig2.png Graphic file (type png)
+<use figures/cggatefig2.png>
+Package pdftex.def Info: figures/cggatefig2.png  used on input line 126.
+(pdftex.def)             Requested size: 258.0pt x 107.26393pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 126--128
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/cggatefig3.png, id=14, 729.72626pt x 220.825pt>
+File: figures/cggatefig3.png Graphic file (type png)
+<use figures/cggatefig3.png>
+Package pdftex.def Info: figures/cggatefig3.png  used on input line 143.
+(pdftex.def)             Requested size: 258.0pt x 78.07162pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 143--145
+ [][] 
+ []
+
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./figures/cggate.png>]
-(./gate.aux)
+ <./figures/cggatefig1.png> <./figures/cggatefig2.png> <./figures/cggatefig3.pn
+g>] [2
+
+] (./gate.aux)
 Package rerunfilecheck Info: File `gate.out' has not changed.
 (rerunfilecheck)             Checksum: F82A5079BA4E356FD409D38C8FEA986E;137.
  ) 
 Here is how much of TeX's memory you used:
- 44315 strings out of 478287
- 1023141 string characters out of 5849289
- 1516579 words of memory out of 5000000
- 61797 multiletter control sequences out of 15000+600000
- 527562 words of font info for 143 fonts, out of 8000000 for 9000
+ 44380 strings out of 478287
+ 1024145 string characters out of 5849289
+ 1524814 words of memory out of 5000000
+ 61836 multiletter control sequences out of 15000+600000
+ 540400 words of font info for 173 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,9n,96p,408b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,12n,96p,408b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
@@ -1424,10 +1454,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on gate.pdf (1 page, 65718 bytes).
+Output written on gate.pdf (2 pages, 82946 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 105 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
+ 26 named destinations out of 1000 (max. 500000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
