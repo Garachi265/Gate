@@ -97,22 +97,24 @@ Let $B_T $denote the FM bandwidth. The minimum value of $ \omega_c $ required to
 \end{enumerate}
 %\section{Solution} 
 \textbf{Solution: }
+Let $k_f \int_{-\infty}^{t} m(\lambda) d\lambda = \phi $
 \begin{align}
- x(t) &= A \cos(\omega_c t + k_f \int_{-\infty}^{t} m(\lambda) d\lambda) \\
+ x(t) &= A \cos(\omega_c t + \phi) \\
  y(t) &= 2x(t) + 5(x(t))^2 \\
- &= 2A \cos(\omega_c t + k_f \int_{-\infty}^{t} m(\lambda) d\lambda) + 5A^{2}\cos^{2}(\omega_c t + k_f \int_{-\infty}^{t} m(\lambda) d\lambda) \\
- &= 2A \cos(\omega_c t + k_f \int_{-\infty}^{t} m(\lambda) d\lambda) + \dfrac{5}{2}A^{2}\cos(2\omega_c t + k_f \int_{-\infty}^{t} m(\lambda) d\lambda) + \dfrac{5}{2}A^{2}
+ &= 2A \cos(\omega_c t + \phi) + 5A^{2}\cos^{2}(\omega_c t +  \phi  ) \\
+ &= 2A \cos(\omega_c t +  \phi ) + \dfrac{5}{2}A^{2}[\cos(2\omega_c t +  2\phi ) + 1]
  \end{align}
-%On plotting frequency spectrum of $y(t)$
-To recover $x(t)$ from $y(t)$
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]{figures/cggate.png} 
+ \label{cggatefig1}
+ \caption*{Fig 1: Plot of M(Modulation Frequency) vs $\omega$  }
+\end{figure}
+\\From garph ,to recover $x(t)$ from $y(t)$
 \begin{align}
 2\omega_c - B_T > \omega_c + \dfrac{B_T}{2} \\
 \omega_c > \dfrac{3B_T}{2} \\
-\therefore(\omega_c)_{min} = \dfrac{3B_T}{2} 
+\therefore(\omega_c)_{min} = \dfrac{3}{2}B_T
 \end{align}
-
-
-
-
-
+Hence the correct option is $(b)$
 \end{document}
