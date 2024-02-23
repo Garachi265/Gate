@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.21)  22 FEB 2024 18:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.21)  23 FEB 2024 11:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1387,7 +1387,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
  []
 
 (./table/table.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 99--108
+Underfull \hbox (badness 10000) in paragraph at lines 97--108
 
  []
 
@@ -1427,20 +1427,25 @@ Overfull \hbox (6.0pt too wide) in paragraph at lines 143--145
  [][] 
  []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
- <./figures/cggatefig1.png> <./figures/cggatefig2.png> <./figures/cggatefig3.pn
-g>] [2
+Underfull \vbox (badness 5064) has occurred while \output is active []
 
-] (./gate.aux)
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./figures/cggatefig1.png> <./figures/cggatefig2.png>] [2
+
+ <./figures/cggatefig3.png>] (./gate.aux)
 Package rerunfilecheck Info: File `gate.out' has not changed.
 (rerunfilecheck)             Checksum: F82A5079BA4E356FD409D38C8FEA986E;137.
  ) 
 Here is how much of TeX's memory you used:
  44380 strings out of 478287
  1024145 string characters out of 5849289
- 1524814 words of memory out of 5000000
+ 1523814 words of memory out of 5000000
  61836 multiletter control sequences out of 15000+600000
  540400 words of font info for 173 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1454,7 +1459,7 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on gate.pdf (2 pages, 82946 bytes).
+Output written on gate.pdf (2 pages, 82998 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream
